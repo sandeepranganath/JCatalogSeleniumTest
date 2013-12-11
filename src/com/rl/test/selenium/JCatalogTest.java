@@ -3,8 +3,8 @@ package com.rl.test.selenium;
 import java.io.File;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.ie.InternetExplorerDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import org.testng.annotations.Test;
 
@@ -13,7 +13,7 @@ public class JCatalogTest extends MainDriver{
 	public static void openBrowser(){
 		File file = new File("src/IEDriverServer.exe");
 		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
-		driver = new FirefoxDriver();
+		driver = new InternetExplorerDriver();
 		driver.get("http://192.168.103.30:8080/catalog/");		
 	}
 	public static void closeBrowser(){

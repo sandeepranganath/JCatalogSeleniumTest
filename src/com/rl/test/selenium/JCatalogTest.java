@@ -39,7 +39,7 @@ public class JCatalogTest extends MainDriver{
 	
 	
 	
-	@Test(priority = 1)
+/*	@Test(priority = 1)
 	public void TestcategoryOne(){
 		try{
 		
@@ -102,7 +102,7 @@ public class JCatalogTest extends MainDriver{
 		
 		PlaceOrder.placeOrder();
 		
-	}
+	}*/
 	
 	/*@Test(priority = 9)
 	public void Testlogout(){

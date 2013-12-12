@@ -14,6 +14,7 @@ public class JCatalogTest extends MainDriver{
 		//File file = new File("src/IEDriverServer.exe");
 		//System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 		//driver = new InternetExplorerDriver();
+		System.setProperty("webdriver.firefox.bin","\\user\\bin\\firefox");
 		driver = new FirefoxDriver();
 		driver.get("http://192.168.103.30:8080/catalog/");		
 	}

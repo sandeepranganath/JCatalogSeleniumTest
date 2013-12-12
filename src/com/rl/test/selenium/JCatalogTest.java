@@ -34,7 +34,7 @@ public class JCatalogTest extends MainDriver{
 	public void Testlogin(){
 		
 		openBrowser();
-		login();
+	//	login();
 		}
 	
 	
